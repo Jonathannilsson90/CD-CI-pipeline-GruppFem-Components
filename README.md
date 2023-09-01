@@ -11,6 +11,10 @@
 **Class:**  FWK22S<br>
 **Semester:**  HT2023<br>
 
+## Members
+* Jonathan Nilsson 
+* Yulia Gutorova 
+* Una Paruma 
 
 
 
