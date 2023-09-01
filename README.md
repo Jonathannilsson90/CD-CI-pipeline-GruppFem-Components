@@ -7,4 +7,10 @@
 
 ## TBA
 
+**Course name:** *Packaging Delivery and Follow-up*<br>
+**Class:**  FWK22S<br>
+**Semester:**  HT2023<br>
+
+
+
 
