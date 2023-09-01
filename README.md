@@ -1,8 +1,8 @@
 # CD-CI-pipeline-GruppFem-Components
 
-**Course name:** *Packaging Delivery and Follow-up*
-**Class:**  FWK22S
-**Semester:**  HT2023
+**Course name:** *Packaging Delivery and Follow-up*<br>
+**Class:**  FWK22S<br>
+**Semester:**  HT2023<br>
 
 # Detta är en header :)
 ## Members
