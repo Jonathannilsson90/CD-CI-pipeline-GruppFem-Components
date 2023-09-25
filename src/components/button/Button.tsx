@@ -5,7 +5,7 @@ interface ButtonProps {
 label: string;
 }
 const Button = ({label}:ButtonProps) => {
-return <button>{label}</button>;
+return <button className='buttonOne'>{label}</button>;
 
 }
 
