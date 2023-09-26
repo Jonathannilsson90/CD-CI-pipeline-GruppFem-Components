@@ -1,6 +1,6 @@
 {
   "name": "react-template-npm-coolbeans",
-  "version": "0.0.6",
+  "version": "1.0.1",
   "description": "A react component library",
   "scripts": {
     "rollup": "rollup -c",
@@ -8,7 +8,8 @@
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 5",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "build": "cross-env APP_VERSION=$npm_package_version npm run rollup"
   },
   "keywords": [],
   "author": "Jonathan",
@@ -37,6 +38,7 @@
     "@typescript-eslint/eslint-plugin": "^6.7.3",
     "@typescript-eslint/parser": "^6.7.3",
     "babel-jest": "^29.7.0",
+    "cross-env": "^7.0.3",
     "eslint": "^8.50.0",
     "husky": "^8.0.3",
     "identity-obj-proxy": "^3.0.0",
@@ -59,8 +61,5 @@
   "files": [
     "dist"
   ],
-  "types": "dist/index.d.ts",
-  "scritps": {
-    "prepare": "husky install"
-  }
+  "types": "dist/index.d.ts"
 }
