@@ -1,6 +1,6 @@
 {
   "name": "react-template-npm-coolbeans",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A react component library",
   "scripts": {
     "rollup": "rollup -c",
