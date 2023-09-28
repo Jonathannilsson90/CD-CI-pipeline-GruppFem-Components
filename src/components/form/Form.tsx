@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import "./form.css";
 import Button from "../button/Button";
 
@@ -15,10 +15,10 @@ const initialFormState = {
 }
 
 const Form = ({URL}:FormProps) => {
-  const [formData, setFormData] = useState(initialFormState);
+  const [formData, setFormData] = React.useState(initialFormState);
 
 
-  const [formError, setFormError] = useState(false);
+  const [formError, setFormError] = React.useState(false);
 
   const handleChange = (
     e: React.ChangeEvent<HTMLInputElement | HTMLSelectElement>
