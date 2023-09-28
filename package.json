@@ -1,6 +1,6 @@
 {
   "name": "react-template-npm-coolbeans",
-  "version": "1.0.11",
+  "version": "1.0.12",
   "description": "A react component library",
   "scripts": {
     "rollup": "rollup -c",
@@ -48,13 +48,15 @@
     "react-dom": "^18.2.0",
     "rollup": "^3.29.2",
     "rollup-plugin-dts": "^6.0.2",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
     "rollup-plugin-postcss": "^4.0.2",
     "storybook": "^7.4.5",
     "tslib": "^2.6.2",
     "typescript": "^5.2.2"
   },
   "peerDependencies": {
-    "react": "^18.2.0"
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   },
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
