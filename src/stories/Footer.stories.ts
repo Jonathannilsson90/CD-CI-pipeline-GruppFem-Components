@@ -11,6 +11,6 @@ export default meta;
 type story = StoryObj<typeof meta>;
 export const Default: story = {
   args: {
-    h1: "Footer",
+    
   },
 };
