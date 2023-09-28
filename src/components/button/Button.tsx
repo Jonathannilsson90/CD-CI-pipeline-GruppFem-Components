@@ -1,6 +1,6 @@
 import React from 'react'
 import './button.css'
-
+//test för bot
 interface ButtonProps {
 label: string;
 onClick?: () => void;
