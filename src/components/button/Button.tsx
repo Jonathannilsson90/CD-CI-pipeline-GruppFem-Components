@@ -3,9 +3,11 @@ import './button.css'
 
 interface ButtonProps {
 label: string;
+onClick?: () => void;
+type?: string;
 }
-const Button = ({label}:ButtonProps) => {
-return <button className='buttonOne'>{label}</button>;
+const Button = ({label, onClick}:ButtonProps) => {
+return <button onClick={onClick} className='buttonOne'>{label}</button>;
 
 }
 

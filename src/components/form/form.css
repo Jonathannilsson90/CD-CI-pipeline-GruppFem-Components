@@ -1,0 +1,42 @@
+.container{
+display: flex;
+justify-content: center;
+text-align: center;
+align-items: center;
+border: 1px solid black;
+height: 30em;
+width: 40em;
+}
+
+[class*="input-text"]{
+/*     color: blue; */
+    margin: 0.2rem
+}
+[class*="input-field"]{
+    height: 2rem;
+/*     background-color: aliceblue; */
+}
+
+.input-field-2 {
+  width: 172px;
+}
+
+.btn-wrapper{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+/*     background-color: blueviolet; */
+}
+
+.label-wrapper{
+    padding: 20px;
+}
+
+#days{
+    width: 177px;
+    height: 36px;
+}
+
+.error-msg{
+    color: red;
+}
