@@ -47,6 +47,6 @@ npm publish --access public (--access public flaggan behövs enbart första gån
 
 ### Tekniker:
 
-* [Husky](https://www.npmjs.com/package/husky) - En förenklad version utav hit-hooks där det går att använda JavaScript för att automatisera tester innan händelser, t ex pre-commits.
+* [Husky](https://www.npmjs.com/package/husky) - En förenklad version utav git-hooks där det går att använda JavaScript för att automatisera tester innan händelser, t ex pre-commits.
 * [Storybook](https://storybook.js.org) - Ett ramverk för att kunna bygga kompenter i en testmiljö som är mer anpassningsbar för användare och utvecklare.
 * [Rollupjs](https://rollupjs.org) -Ett verktyg för att "minifiera" kod och skapa distrubtionsbyggen för att underlätta publicering av kod.
